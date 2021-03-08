@@ -1,0 +1,56 @@
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+
+    .descPerso{
+        color: black;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        //margin: 40px 0;
+
+        .avatar{
+            align-self: center;
+        }
+
+        h1{
+            font-family: "Chalk Board";
+            font-size: 7em;
+            margin-bottom: 0;
+        }
+        p{
+            text-align: justify;
+            width: 600px;
+        }
+    }
+
+}
+
+@media(max-width:540px){
+    section{
+        flex-direction: column;
+
+        .descPerso{
+            color: black;
+            margin-left: 50px;
+            margin-bottom: 50px;
+    
+            .avatar{
+                align-self: center;
+            }
+    
+            h1{
+                font-size: 5em;
+                margin-bottom: 0;
+            }
+            p{
+                text-align: justify;
+                width: 350px;
+            }
+        }
+    }
+}
+

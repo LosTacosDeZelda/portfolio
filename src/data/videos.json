@@ -3,7 +3,7 @@
     {
         "title": "Archeomancer",
         "toolTip":"Jouer à Archeomancer !",
-        "videoUrl": "https://www.youtube.com/embed/Gm_AuvLUvgg?controls=0&autoplay=1&mute=1&loop=1",
+        "videoUrl": "https://www.youtube-nocookie.com/embed/Gm_AuvLUvgg?controls=0&autoplay=1&loop=1&mute=1",
         "gameUrl":"https://eltacos.itch.io/archeomancer"      
     },
    
@@ -11,21 +11,21 @@
     {
         "title": "Air Warfare : Doughnut Delivery",
         "toolTip":"Jouer à Air Warfare : Doughnut Delivery !",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/V33ImfXDZxU?controls=0&autoplay=1&mute=1&loop=1",
+        "videoUrl": "https://www.youtube-nocookie.com/embed/V33ImfXDZxU?controls=0&autoplay=1&loop=1&mute=1",
         "gameUrl":"https://eltacos.itch.io/air-warfare-doughnut-delivery"
         
     },
     {
         "title": "Comment savoir si mon chat est possédé par des démons",
         "toolTip":"Jouer à Demon Cat !",
-        "videoUrl": "https://www.youtube.com/embed/I1_kl5a5OOg?controls=0&autoplay=1&mute=1&loop=1",
+        "videoUrl": "https://www.youtube-nocookie.com/embed/I1_kl5a5OOg?controls=0&autoplay=1&loop=1&mute=1",
         "gameUrl":"https://cowjs.itch.io/comment-savoir-si-mon-chat-est-possd-par-des-dmons"
         
     },
     {
         "title": "Big Blob, Small Blob",
         "toolTip":"Jouer à Big Blob, Small Blob !",
-        "videoUrl": "https://www.youtube.com/embed/ccF7FZIPaR0?controls=0&autoplay=1&mute=1&loop=1",
+        "videoUrl": "https://www.youtube-nocookie.com/embed/ccF7FZIPaR0?controls=0&autoplay=1&loop=1&mute=1",
         "gameUrl":"https://eltacos.itch.io/big-blob-smol-blob"
         
     }

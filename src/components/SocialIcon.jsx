@@ -1,7 +1,8 @@
 import ItchioIcon from "../img/logos/itchio-textless-black.svg";
 import YoutubeIcon from "@material-ui/icons/YouTube";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedinIcon from "@material-ui/icons/LinkedIn"
+import LinkedinIcon from "@material-ui/icons/LinkedIn";
+import MailIcon from '@material-ui/icons/Mail';
 import IconButton from "@material-ui/core/IconButton";
 
 let MyIcon;
@@ -19,8 +20,12 @@ function Icon(props) {
             MyIcon = <TwitterIcon fontSize="large" />
             break;
         case "LinkedIn":
-           MyIcon = <LinkedinIcon fontSize="large" />
+            MyIcon = <LinkedinIcon fontSize="large" />
             break;
+        case "Mail":
+            MyIcon = <MailIcon fontSize="large" />
+            break;
+        
         
     
         default:
@@ -32,8 +37,6 @@ function Icon(props) {
 
 export default function SocialIcon(props) {
      
-    
-
     return(
         <a href={props.url} target="blank">
             <IconButton>

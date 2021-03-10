@@ -1,5 +1,6 @@
 import Video from "./Video";
 import tabVideos from "../data/videos.json";
+import { FormattedMessage } from 'react-intl';
 
 import "../sass/Gallery.scss";
 
@@ -7,7 +8,7 @@ export default function Gallery(props) {
     
     return(
         <div className="Gallery">
-            <h3>Galerie</h3>
+            <h3><FormattedMessage id="galleryTitle" description="message" defaultMessage="Gallery"/></h3>
             <div className="projets">
             
              {tabVideos.map(video => 

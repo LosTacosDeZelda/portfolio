@@ -1,4 +1,5 @@
 import "../sass/Video.scss";
+// import { FormattedMessage } from 'react-intl';
 
 export default function Video(props) {
 

@@ -2,6 +2,7 @@ import "../sass/Entete.scss";
 import photoProfil from "../img/avatars/raph_grece.jpg";
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from "@material-ui/core/Avatar";
+import { FormattedMessage } from 'react-intl';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -32,10 +33,7 @@ export default function Entete(props) {
             <div className="descPerso">
                 <h1>Raphaël Jeudy</h1>
                 <p>
-                    Salut ! Je suis un jeune développeur de jeu ! Touche
-                    à tout, je code, je design et j’expérimente avec plusieurs moteurs de jeu. Je crois que pour faire un bon
-                    jeu, tous les éléments sont cruciaux : le son, les visuels autant qu’une bonne programmation bien faite
-                    et optimisée !
+                    <FormattedMessage id="personalDesc" description="message" defaultMessage="Download my CV"/>
                 </p>
             </div>
         </section>
